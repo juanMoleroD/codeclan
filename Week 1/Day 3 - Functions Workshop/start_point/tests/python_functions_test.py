@@ -8,7 +8,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       return_10_result = return_10()
       self.assertEqual( 10, return_10_result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_add(self):
       add_result = add( 1, 2 )
       self.assertEqual( 3, add_result )

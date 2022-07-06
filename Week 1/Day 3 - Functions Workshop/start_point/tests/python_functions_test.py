@@ -13,7 +13,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       add_result = add( 1, 2 )
       self.assertEqual( 3, add_result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_subtract(self):
       subtract_result = subtract( 10, 5 )
       self.assertEqual( 5, subtract_result )

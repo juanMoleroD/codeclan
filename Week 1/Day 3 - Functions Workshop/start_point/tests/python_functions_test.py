@@ -28,7 +28,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       divide_result = divide( 10, 2 )
       self.assertEqual( 5, divide_result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_length_of_string(self):
       test_string = "A string of length 21"
       string_length = length_of_string( test_string )

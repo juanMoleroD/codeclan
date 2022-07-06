@@ -31,3 +31,6 @@ def number_to_short_month_name(month):
     months = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
     "Aug", "Sep", "Oct", "Nov", "Dec"]
     return months[month]
+
+def volume_of_cube(side):
+    return side ** 3

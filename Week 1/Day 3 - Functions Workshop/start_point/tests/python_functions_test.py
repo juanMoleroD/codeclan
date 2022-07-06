@@ -23,7 +23,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       multiply_result = multiply( 4, 2 )
       self.assertEqual( 8, multiply_result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_divide(self):
       divide_result = divide( 10, 2 )
       self.assertEqual( 5, divide_result )

@@ -34,3 +34,6 @@ def number_to_short_month_name(month):
 
 def volume_of_cube(side):
     return side ** 3
+
+def reverse_string(string):
+    return string[::-1]

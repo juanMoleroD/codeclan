@@ -51,12 +51,12 @@ class TestPythonFunctionPractice(unittest.TestCase):
       result = number_to_full_month_name( 1 )
       self.assertEqual( "January", result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_number_to_full_name__month_3(self):
       result = number_to_full_month_name( 3 )
       self.assertEqual( "March", result )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_number_to_full_name__month_9(self):
       result = number_to_full_month_name( 9 )
       self.assertEqual( "September", result )

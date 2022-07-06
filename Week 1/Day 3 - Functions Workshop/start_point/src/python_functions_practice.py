@@ -23,6 +23,6 @@ def add_string_as_number(a, b):
     return int(a) + int(b)
 
 def number_to_full_month_name(month):
-    months = ["January", "February", "March", "April", "May", "June", "July",
+    months = ['', "January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December"]
-    return months[month + 1]
+    return months[month]

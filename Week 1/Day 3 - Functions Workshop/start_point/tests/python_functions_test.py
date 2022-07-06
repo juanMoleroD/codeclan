@@ -34,7 +34,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       string_length = length_of_string( test_string )
       self.assertEqual( 21, string_length )
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_join_string(self):
       string_1 = "Mary had a little lamb, "
       string_2 = "its fleece was white as snow"

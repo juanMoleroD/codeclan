@@ -37,3 +37,6 @@ def volume_of_cube(side):
 
 def reverse_string(string):
     return string[::-1]
+
+def fahrenheit_to_celsius(degrees):
+    return (degrees - 32) * (5/9)

@@ -93,10 +93,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
     self.assertAlmostEqual("gfedcba", result)
 
   #Given a value in farenheit, convert this into celsius.
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_fahrenheit_to_celsius(self):
     #add test code here
-    pass
+    result = fahrenheit_to_celsius(32)
+    self.assertEqual(0, result)
 
 
 if __name__ == '__main__':

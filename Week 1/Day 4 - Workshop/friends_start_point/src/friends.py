@@ -9,3 +9,6 @@ def likes_to_eat(person, food):
 
 def add_friend(person, new_friend):
     person["friends"].append(new_friend)
+
+def remove_friend(person, friend_to_be_removed):
+    person["friends"].remove(friend_to_be_removed)

@@ -114,7 +114,7 @@ class TestFriends(unittest.TestCase):
 
 
   # 7. For two given people, allow the first person to loan a given value of money to the other
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_lend_money(self):
     lend_money(self.person2, self.person1, 2)
     self.assertEqual(0, self.person2["monies"])

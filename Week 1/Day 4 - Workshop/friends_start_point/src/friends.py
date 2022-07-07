@@ -18,3 +18,7 @@ def total_money(people):
     for person in people:
         sum += person["monies"]
     return sum
+
+def lend_money(lender, borrower, amount):
+    lender["monies"] -= amount
+    borrower["monies"] += amount

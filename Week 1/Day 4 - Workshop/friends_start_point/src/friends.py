@@ -30,3 +30,9 @@ def all_favourite_foods(people):
             favfoods.append(snack)
     return favfoods
 
+def find_no_friends(people):
+    people_with_no_friends = []
+    for person in people:
+        if person["friends"] == []:
+            people_with_no_friends.append(person)
+    return people_with_no_friends

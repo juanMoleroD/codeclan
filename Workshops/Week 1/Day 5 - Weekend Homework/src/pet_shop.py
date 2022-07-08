@@ -57,7 +57,8 @@ def sell_pet_to_customer(pet_shop, pet_on_sale, customer):
     for pet in pet_shop["pets"]:
         if pet == pet_on_sale:
             pet_found = True
-    if pet_found == True:
+    
+    if pet_found == True and customer_can_afford_pet(customer, pet_on_sale):
         remove_customer_cash(customer, pet_on_sale["price"])
         add_or_remove_cash(pet_shop, pet_on_sale["price"])
         increase_pets_sold(pet_shop, 1)
